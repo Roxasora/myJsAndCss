@@ -1,0 +1,104 @@
+*{
+                -webkit-transition:all 200ms linear;
+            }
+            .div_canvas{
+                position:       absolute;
+                top:            40px;
+                left:           80px;
+                -moz-box-shadow:5px 6px 14px rgba(0,0,0,0.3);
+                box-shadow:     5px 6px 14px rgba(0,0,0,0.3);
+                background-color:#555555;
+                -webkit-border-radius: 5px;
+            }
+            .div_canvas_top{
+                height:         50px;
+                border-bottom:  1px solid #242424;
+                margin-left:    auto;
+                margin-right:   auto;
+                background-image:url("img/bg.png");
+                background-position: 0 0;
+                background-repeat: repeat-x;
+                text-shadow:    1px 1px 2px #eeeeee;
+                color:     #fff;
+                border-radius:6px 6px 0 0;
+            }
+            .div_canvas_top:hover{
+                text-shadow:    1px 1px 20px #eeeeee;
+                height:60px;
+            }
+            .canvas_pos{
+                position:relative;
+                margin-left:    10px;
+                margin-right:   10px;
+                margin-top:14px;
+                margin-bottom:5px;
+                background-color:#fff;
+                box-shadow:0px 0px 14px rgba(0,0,0,0.7) inset;
+            }
+            .div_canvas_top_text{
+                position:       relative;
+                display:        block;
+                margin-left:    10px;
+                margin-top:     0;
+                top:            16px;
+                left:           5px;
+                font-size:      18px;
+            }
+
+            .Div_tool{
+                position:relative;
+                width:300px;
+                height:370px;
+                background-color:#fff;
+                left: 960px;
+                top: 32px;
+                border-radius: 7px;
+                box-shadow: 5px 6px 14px rgba(0,0,0,0.3);
+            }
+
+            .Div_tool:hover{
+                 box-shadow: 0px 0px 14px rgba(0,0,0,1);
+                 padding-bottom:10px;
+            }
+
+            SELECT{
+                width: 70px;
+                height: 31px;
+                background-color: rgb(231, 231, 231);
+                border-color: rgb(163, 163, 163);
+                border-radius: 5px;
+                font-size: 15px;
+            }
+
+
+            LABEL{
+                font-size:15px;
+                position:relative;
+                margin-left:70px;
+                padding-top:20px;
+                display:block;
+            }
+            
+            .but{
+                width:70px;
+                height:35px;
+                font-size:18px;
+            }
+            .but:hover{
+                width:90px;
+            }
+            .div_about{
+                width:300px;
+                height:170px;
+                position:relative;
+                left:960px;
+                top:48px;
+                border-radius: 7px;
+                box-shadow: 5px 6px 14px rgba(0,0,0,0.3);
+                background-color:#fff;
+            }
+
+            .hehe{
+                margin:10px;
+                background-color:#000;
+            }
